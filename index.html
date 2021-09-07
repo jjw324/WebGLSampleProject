@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script type="text/javascript" src="./Common/initShaders2.js"></script>
+    <script type="text/javascript" src="./Common/MV.js"></script>
+    <script type="module" src="./app.js"></script>
+</head>
+
+<body>
+    <div style="display: flex">
+    <div>
+        <canvas id="gl-canvas" width="512" height="512">
+            Not supported
+        </canvas>
+    </div>    
+        <div>
+            <p>Controls</p>
+            <ul>
+                <li>Flying Camera</li>
+                <ul>
+                    <li>Up and down arrows to move forward and backward</li>
+                    <li>Left and right arrows to move left and right</li>
+                    <li>Z/z to roll counter-clockwise/clockwise</li>
+                    <li>X/x to pitch upward/downward</li>
+                    <li>C/c to yaw leftward/rightward</li>
+                </ul>
+                <li>Circling Camera</li>
+                <ul>
+                    <li>Up and down arrows to increase/decrease altitude</li>
+                    <li>Left and right arrows to increase/decrease radius</li>
+                </ul>
+                <li>t to toggle camera mode</li>
+                <li>r to reset the camera</li>
+                <li>b to generate a bunny</li>
+                <li>k to remove a bunny</li>
+            </ul> 
+        </div>
+    </div>
+    </body>
+</html>
